@@ -1,0 +1,138 @@
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="portfolio">
+        <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+        <meta name="author" content="midynoob">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>
+            Toufiq Shaikh
+        </title>
+
+        <link rel="stylesheet" href="mystyle.css">
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(function () {
+                    $(window).scroll(function () {
+                        if ($(window).scrollTop() >= window.innerHeight * 0.9) {
+                            $('.nav').css('background','#020202');
+                        } else {
+                            $('.nav').css('background','transparent');
+                        }
+                    });
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <nav id="navbar" class="nav" >
+            <ul class="nav-list">
+                <li><a href="#welcome-section">About</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="welcome-section" class="welcome-section">
+            <h1>Hey I am Toufiq Shiakh</h1>
+            <p>a web developer</p>
+        </section>
+        <section id="projects" class="projects-section">
+            <h2 class="projects-section-header">These are some of my Projects</h2>
+
+            <div class="projects-grid">
+                <a class="project" href="https://midynoob.github.io/paul_walker/" target="_blank">  
+                    <img src="./tribute.png" class="project-img">
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Tribue Page
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+
+                </a>
+
+                <a class="project" href="https://midynoob.github.io/surveyForm/" target="_blank">  
+                    <img src="./surveyForm.png" class="project-img">
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Survey Form
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+
+                </a>
+                <a class="project" href="https://midynoob.github.io/productLanding/" target="_blank">  
+                    <img src="./productLanding.png" class="project-img">
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Product Landing Page
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+
+                </a>
+                <a class="project item-4" href="https://midynoob.github.io/jsDocumentation/" target="_blank">  
+                    <img src="./jsDocumentation.png" class="project-img">
+
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Javascript Documentation
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+
+                </a>
+            </div>
+
+            <div class="circle">
+            </div>
+        </section>
+
+        
+        <section id="contact" class="contact-section" >
+            <div class="contact-section-header">
+                <h2>Let's Work Together...</h2>
+                <p >How do you take your coffee?</p>
+                
+            </div>
+            <div class="contact-links">
+                <a id="profile-link"
+                    href=""
+                    target="_blank"
+                    class="btn contact-details"
+                >
+                    <i class="fab fa-github"></i>
+                    Github
+                </a>
+                <a id="profile-link"
+                    href=""
+                    target="_blank"
+                    class="btn contact-details"
+                >
+                    <i class="fa fa-at"></i>
+                    Send a mail
+                </a>
+                <a id="profile-link"
+                    href=""
+                    target="_blank"
+                    class="btn contact-details"
+                >
+                    <i class="fas fa-mobile-alt"></i>
+                    Call me
+                </a>
+            </div>
+        </section>
+
+    </body>
+
+</html>
